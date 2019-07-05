@@ -89,15 +89,25 @@ li{
 #header{
 	width: 100%;
 }
+.border_bottom_right_radius{
+  border-bottom-right-radius: 60px;
+}
+.border_top_left_radius{
+  border-top-left-radius: 60px;
+}
+.border_bottom_left_radius{
+  border-bottom-left-radius: 60px;
+}
+.border_top_right_radius{
+  border-top-right-radius: 60px;
+}
 .lecture #header{
   background-color: #fff;
-  border-bottom-right-radius: 60px;
 }
 .lecture .footer{
   padding: 20px;
   color: #522DC5;
   background-color: #fff!important;
-  border-top-left-radius: 60px;
 }
 .lecture .Contact a{
   color: #522DC5!important;
@@ -162,7 +172,6 @@ li{
 #start{
 	font-family: pantonmtav3-bold;
   background-image: linear-gradient(to right, #522DC5 , #652D92);	width: 100%;
-  border-bottom-left-radius: 53px;
 	color: #fff;
 }
 #start h1{
@@ -184,8 +193,6 @@ li{
 }
 #about_us{
 	width: 100%;
-  border-top-right-radius: 58px;
-  border-bottom-right-radius: 58px;
   background-color: #fff;
 	color: #494294;
 }
@@ -207,8 +214,6 @@ li{
 	color: #494294;
 	width: 100%;
 	background-image: linear-gradient(to right, #522DC5 , #652D92);
-  border-top-left-radius: 59px;
-  border-bottom-right-radius: 59px;
 }
 .more{
 	box-shadow: 1px 1px 12px 0px rgb(27, 20, 100);
@@ -239,7 +244,6 @@ li{
 #projects {
     font-family: pantonmtav3-bold;
     background-color: #fff;
-    border-top-left-radius: 60px;
 }
 #projects h1{
     font-size: 56px;
@@ -255,7 +259,6 @@ li{
 #resources {
     font-family: pantonmtav3-bold;
     background-color: #fff;
-    border-bottom-left-radius: 60px;
 }
 #resources h1{
     font-size: 56px;
@@ -282,7 +285,6 @@ li{
 #footer{
 	color: #fff;
   background-image: linear-gradient(to right, #522DC5 , #652D92);
-  border-top-right-radius: 60px;
 	padding: 20px;
 }
 #footer img, .footer img{
@@ -370,7 +372,6 @@ font-family: bpg_banner_caps;
 }
 .students{
   padding-bottom: 2%;
-  border-bottom-left-radius: 60px;
   background-color: #fff;
   position: relative;
 }
@@ -443,8 +444,6 @@ iframe{
 .videos{
     justify-content: space-between;
     background-image: linear-gradient(to right, #522DC5 , #652D92);
-    border-top-left-radius: 60px;
-    border-bottom-right-radius: 60px;
 }
 .scroll div{
       direction: ltr;
