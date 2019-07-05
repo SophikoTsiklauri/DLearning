@@ -297,6 +297,7 @@ li{
 	color: #fff;
 }
 #our_lectors{
+  justify-content: center;
 	flex-wrap: wrap!important;
 }
 .lect_inf p{
@@ -304,41 +305,46 @@ li{
 }
 .lect_inf{
 	width: 170px;
-    margin: 23px;
+    margin: 18px 31px;
 }
 .lector{
-	margin: 45px 7%;
+	margin: 5%;
 	border-radius: 16px;
     box-shadow: 1px 3px 27px -9px #494294;
 }
 .lector img{
-	width: 255px;
+	width: 100%;
 }
 .lect_butt{
-	margin-left: 27%;
-	margin-bottom : 27px;
-   background-image: linear-gradient(to right, #212576 , #2E3192);
-    padding: 10px 40px;
-    width: 120px;
+margin: auto;
+    margin-bottom: 27px;
+    background-image: linear-gradient(to right, #212576 , #2E3192);
+    padding: 2px 21px;
+    width: 78px;
     border-radius: 49px;
+    height: 25px;
 }
 .lector a{
 	color: #fff;
 }
 .heading{
-	width: 276px;
-  background-image: linear-gradient(to right, #522DC5 , #652D92);
+font-family: bpg_banner_caps;
+    width: 243px;
+    background-image: linear-gradient(to right, #522DC5 , #652D92);
     border-radius: 17px;
     color: #fff;
     box-shadow: 1px 1px 12px 0px rgb(27, 20, 100);
-    line-height: 0.5;
-    margin-left: 2%;
-    padding: 1px 85px 1px 36px;
-    margin-top: 50px;
+    margin-left: 10%;
+    padding: 0px 215px 0px 14px;
+    margin-top: 80px;
+    font-size: 50px;
+}
+.heading p{
+  margin: 0;
 }
 .heading2{
 	width: 400px;
-	margin-top: 13px;
+	margin: 25px 0 14px 10%;
 }
 .heading3{
 	width: 250px;
@@ -456,4 +462,7 @@ iframe{
 }
 .next img{
   margin: 14% 32%;
+}
+footer{
+  font-family: KoHo-Medium;
 }
