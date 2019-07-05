@@ -1,0 +1,72 @@
+@media(max-width: 1045px){
+	#menu {
+    	margin-left: 20%;
+	}
+	#start img {
+    	height: 287px;
+	}
+	#start h1 {
+    	font-size: 40px;
+	}
+	.start_div {
+	    margin: 35px 4% 0px 10%;
+	}
+	#about_us img {
+	    height: 277px;
+	}
+	.about {
+	    margin-top: 13px;
+	}
+	.lectors_students_div img {
+	    width: 64%;
+	    height: 245px;
+	    left: 39%;
+	}
+	.lectors_students_div {
+    	height: 296px;
+	}
+	#projects img {
+	    height: 320px;
+	}
+	#resources img{
+		height: 320px;
+		width: 41%;
+	}
+	#projects h1 {
+	    font-size: 45px;
+	}
+	#resources h1{
+		font-size: 45px;
+	}
+	.projects_div {
+	    margin: 9%;
+	}
+	.resources_div {
+	    margin: 7% auto;
+	}
+}
+
+
+@media(max-width: 880px){
+	#menu {
+    	margin-left: 10%;
+    	width: 100%;
+	}
+	#menu a {
+    	font-size: 15px;
+	}
+}
+
+
+@media(max-width: 660px){
+	#menu {
+    	margin-left: 0%;
+    	width: 100%;
+	}
+	#menu a {
+    	font-size: 13px;
+	}
+	#menu li {
+	    padding: 5% 2%;
+	}
+}
