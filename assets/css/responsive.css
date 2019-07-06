@@ -44,6 +44,15 @@
 	.resources_div {
 	    margin: 7% auto;
 	}
+	.copyright {
+    	margin: 17px 12px 0 44%;
+	}
+	#footer img, .footer img {
+    	width: 3.5%;
+	}
+	.fa {
+	    width: 4.5%!important;
+	}
 }
 
 
@@ -55,6 +64,58 @@
 	#menu a {
     	font-size: 15px;
 	}
+	#start img {
+    height: 240px;
+}
+#start h1 {
+    font-size: 28px;
+}
+#about_us img {
+    height: 230px;
+}
+.about p {
+    font-size: 10px;
+}
+#projects h1 {
+    font-size: 35px;
+}
+#projects img {
+    height: 270px;
+    top: 40px;
+}
+.lectors_students_div img {
+    top: 60px;
+    height: 172px;
+}
+.lectors_students_div {
+    height: 250px;
+}
+#footer {
+    font-size: 12px;
+}
+.see {
+    width: 100px;
+    line-height: 37px;
+    font-size: 11px;
+    margin-top: 17px;
+}
+#resources h1 {
+    margin-top: 75px;
+    font-size: 35px;
+}
+#resources img {
+    height: 265px;
+}
+.more {
+    width: 100px;
+    line-height: 37px;
+    font-size: 11px;
+    margin-top: 17px;
+}
+.h1 {
+    width: 58%;
+    font-size: 13px;
+}
 }
 
 
@@ -69,4 +130,186 @@
 	#menu li {
 	    padding: 5% 2%;
 	}
+	#start h1 {
+    font-size: 22px;
+}
+#start img {
+    height: 160px;
+}
+.h1 {
+    font-size: 9px;
+}
+.more {
+    width: 82px;
+    line-height: 29px;
+    font-size: 9px;
+    margin-top: 10px;
+}
+.lectors_students_div {
+    height: 193px;
+    border-radius: 45px;
+}
+.lectors_students_div img {
+    top: 34px;
+    height: 139px;
+}
+#projects h1 {
+    font-size: 30px;
+}
+#resources h1 {
+	margin-top: 60px;
+    font-size: 30px;
+}
+#projects img {
+    height: 214px;
+    top: 23px;
+}
+.border_top_right_radius {
+    border-top-right-radius: 44px;
+}
+.border_top_left_radius {
+    border-top-left-radius: 44px;
+}
+.border_bottom_right_radius {
+    border-bottom-right-radius: 44px;
+}
+.border_bottom_left_radius {
+    border-bottom-left-radius: 44px;
+}
+.fa{
+    height: 27px!important;
+    margin-top: 5px!important;
+}
+#resources img {
+    height: 203px;
+}
+.copyright {
+    margin: 10px 12px 0 29%;
+}
+#footer {
+    height: 72px;
+}
+#footer img, .footer img {
+    height: 33px;
+}
+.see {
+    width: 63px;
+    line-height: 29px;
+    font-size: 9px;
+    margin-top: 10px;
+}
+.about {
+    overflow: hidden;
+    height: 166px;
+}
+.start_butt {
+    font-size: 12px;
+    width: 85px;
+    line-height: 28px;
+}
+#about_us img {
+    height: 176px;
+}
+}
+
+
+
+@media(max-width: 500px){
+	#footer {
+    font-size: 9px;
+}
+	#menu {
+    	margin-left: 0%;
+    	width: 100%;
+	}
+#menu a {
+    font-size: 10px;
+}
+	#menu li {
+	    padding: 5% 2%;
+	}
+	#start h1 {
+    margin-top: 3px;
+    font-size: 16px;
+}
+#start img {
+    height: 128px;
+}
+.h1 {
+    font-size: 9px;
+}
+.logo img {
+    height: 35px;
+}
+.more {
+    width: 67px;
+    line-height: 25px;
+    font-size: 8px;
+}
+.lectors_students_div {
+    height: 161px;
+    border-radius: 35px;
+}
+.lectors_students_div img {
+    top: 40px;
+    height: 115px;
+}
+#projects h1 {
+    font-size: 22px;
+    margin-top: 32px;
+}
+#resources h1 {
+    font-size: 22px;
+    margin-top: 71px;
+}
+#projects img {
+    height: 175px;
+}
+.border_top_right_radius {
+    border-top-right-radius: 35px;
+}
+.border_top_left_radius {
+    border-top-left-radius: 35px;
+}
+.border_bottom_right_radius {
+    border-bottom-right-radius: 35px;
+}
+.border_bottom_left_radius {
+    border-bottom-left-radius: 35px;
+}
+.fa {
+    height: 23px!important;
+    margin-top: 6px!important;
+}
+#resources img {
+    height: 153px;
+}
+.copyright {
+    margin: 10px 12px 0 29%;
+}
+#footer {
+    height: 72px;
+}
+#footer img, .footer img {
+    height: 26px;
+}
+.more {
+    width: 67px;
+    line-height: 25px;
+    font-size: 8px;
+}
+.about {
+    height: 134px;
+}
+.start_butt {
+    font-size: 9px;
+    width: 72px;
+    line-height: 23px;
+}
+.about h2 {
+    font-size: 17px;
+}
+#about_us img {
+    height: 130px;
+}
 }

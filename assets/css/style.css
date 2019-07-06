@@ -256,6 +256,9 @@ li{
     font-size: 56px;
     color: #28285B;
 }
+.copyright{
+  margin: 17px 12px 0 59%;
+}
 #projects img{
   position: absolute;
     right: 0;
@@ -267,6 +270,7 @@ li{
 	margin: 11%;
 }
 #resources {
+    padding-bottom: 75px;
     font-family: pantonmtav3-bold;
     background-color: #fff;
 }
@@ -278,6 +282,9 @@ li{
     height: 600px;
     width: 60%;
     margin-top: 70px;
+}
+.h1{
+  width: 45%;
 }
 .resources_div{
 	margin: 20% auto;
