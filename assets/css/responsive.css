@@ -53,10 +53,54 @@
 	.fa {
 	    width: 4.5%!important;
 	}
+    .heading3 {
+    width: 176px;
+    font-size: 14px;
+    padding: 1px 36px 1px 30px;
+}
+.heading4 {
+    width: 217px;
+    padding: 0px 36px 1px 55px;
+        margin-top: -16px;
+}
+.students iframe {
+    width: 213px;
+    height: 123px;
+}
+.students h2{
+    font-size: 14px;
+}
+.students p{
+    font-size: 12px;
+}
+.students .flex a {
+    margin: 4% 0 0 2%;
+}
+.bu {
+    top: 150px;
+    height: 600px;
+}
 }
 
 
 @media(max-width: 880px){
+    .students iframe {
+    width: 200px;
+    height: 113px;
+}
+.students h2{
+    font-size: 12px;
+}
+.students p{
+    font-size: 10px;
+}
+.students .flex a {
+    margin: 5% 0 0 2%;
+}
+.bu {
+    top: 145px;
+    height: 500px;
+}
 	#menu {
     	margin-left: 10%;
     	width: 100%;
@@ -120,6 +164,16 @@
 
 
 @media(max-width: 660px){
+        .students iframe {
+    width: 180px;
+    height: 95px;
+}
+.students .flex a {
+    margin: 4% 0 0 2%;
+}
+.bu {
+    height: 360px;
+}
 	#menu {
     	margin-left: 0%;
     	width: 100%;
