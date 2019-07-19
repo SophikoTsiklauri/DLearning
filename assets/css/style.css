@@ -508,3 +508,37 @@ iframe{
 footer{
   font-family: KoHo-Medium;
 }
+.currentImg{
+position: absolute;
+    top: 547px;
+    right: 119px;
+    opacity: 0.3;
+    width: 11%;
+      }
+.container {
+  position: relative;
+    margin: auto;
+    width: 60%;
+    padding-top: 80px;
+}
+.mySlides {
+  display: none;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column {
+  float: left;
+    width: 19%;
+    margin: 4px 8px 4px 0;
+}
+.slider_1{
+  display: none;
+  z-index: 23;
+  top: 0;
+  height: 237.9vh;
+  background-color: #0009;
+  position: absolute;
+}
