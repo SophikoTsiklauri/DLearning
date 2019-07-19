@@ -366,6 +366,10 @@ margin: auto;
     width: 78px;
     border-radius: 49px;
     height: 25px;
+    color: #fff;
+}
+.lect_butt:hover{
+  cursor: pointer;
 }
 .lector a{
 	color: #fff;

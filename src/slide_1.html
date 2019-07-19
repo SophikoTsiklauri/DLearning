@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+.currentImg{
+position: absolute;
+    top: 547px;
+    right: 119px;
+    opacity: 0.3;
+    width: 11%;
+      }
+.container {
+  position: relative;
+    margin: auto;
+    width: 60%;
+    padding-top: 80px;
+}
+.mySlides {
+  display: none;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column {
+  float: left;
+    width: 19%;
+    margin: 4px 8px 4px 0;
+}
+</style>
+<body>
+<div style="background-color: #0009;">
+  <div class="container">
+    <div class="mySlides">
+      <img src="../assets/images/sl_1.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <img src="../assets/images/sl_2.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <img src="../assets/images/sl_3.png" style="width:100%">
+    </div>
+      
+    <div class="mySlides">
+      <img src="../assets/images/sl_4.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <img src="../assets/images/sl_5.png" style="width:100%">
+    </div>
+
+
+    <div class="row">
+      <div class="column">
+        <img src="../assets/images/sl_1.png" style="width:100%" onclick="currentSlide(1)">
+      </div>
+      <div class="column">
+        <img src="../assets/images/sl_2.png" style="width:100%" onclick="currentSlide(2)">
+      </div>
+      <div class="column">
+        <img src="../assets/images/sl_3.png" style="width:100%" onclick="currentSlide(3)">
+      </div>
+      <div class="column">
+        <img src="../assets/images/sl_4.png" style="width:100%" onclick="currentSlide(4)">
+      </div>
+      <div class="column">
+        <img src="../assets/images/sl_5.png" style="width:100%" onclick="currentSlide(5)">
+      </div>    
+    </div>
+  </div>
+</div>
+    <div class="currentImg">
+      <img src="../assets/images/sl_1.png" style="width:100%">
+    </div>
+
+    <div class="currentImg">
+      <img src="../assets/images/sl_2.png" style="width:100%">
+    </div>
+
+    <div class="currentImg">
+      <img src="../assets/images/sl_3.png" style="width:100%">
+    </div>
+      
+    <div class="currentImg">
+      <img src="../assets/images/sl_4.png" style="width:100%">
+    </div>
+
+    <div class="currentImg">
+      <img src="../assets/images/sl_5.png" style="width:100%">
+    </div>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var currentImg = document.getElementsByClassName("currentImg");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+      currentImg[i].style.display = "none";
+  }
+  slides[slideIndex-1].style.display = "block";
+  currentImg[slideIndex-1].style.display = "block";
+}
+</script>
+    
+</body>
+</html>
