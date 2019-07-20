@@ -536,13 +536,13 @@ position: absolute;
 .column {
   float: left;
     width: 19%;
-    margin: 4px 8px 4px 0;
+    margin: 4px 1% 4px 0;
 }
-.slider_1{
+[class*="slider_"]{
   display: none;
   z-index: 23;
   top: 0;
-  height: 237.9vh;
+  height: 100vh;
   background-color: #0009;
-  position: absolute;
+  position: fixed;
 }
